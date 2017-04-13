@@ -36,11 +36,26 @@ print('3-7')
 #reduces list to 2
 while len(guests)>2:
    guests.pop()
+
 invitations(guests)
 
 #removing the rest 2 invitees
 del guests[1]
 del guests[0]
 #printed emptied list
-print('Emptied List '+str(guests))
+print('Emptied List '+str(guests)+"\n\n\n\n")
 
+#3-8
+#unsorted raw list
+destinations=["Paris","Karachi","Kathmandu","Seychelles","Maldives"]
+
+print("Unsorted Destinations: " + str(destinations))#raw List
+print("Sorted Destinations: "+str(sorted(destinations)))#Alphabatical Order
+destinations.reverse()
+print("Reversed: "+str(destinations))#unorderd reverse
+destinations.reverse()
+print("Reversed Again: "+str(destinations))#unorderd reverse again
+destinations=sorted(destinations)
+print("Reversed and Assigned: "+str(destinations))#unorderd reverse again
+destinations=sorted(destinations.reverse())
+print("Reverse Sorted: "+str(destinations))#unorderd reverse again
