@@ -8,6 +8,9 @@ def invitations(guests):
 # 3-4 Guest List
 print('3-4')
 guests = ['Ahmed', 'Rehan', 'Zeeshan']
+
+#3-9(Length of the list)
+print("Number of Guests invited: "+str(len(guests)))
 invitations(guests)
 
 # 3-5 Changing guest list
@@ -57,5 +60,6 @@ destinations.reverse()
 print("Reversed Again: "+str(destinations))#unorderd reverse again
 destinations=sorted(destinations)
 print("Reversed and Assigned: "+str(destinations))#unorderd reverse again
-destinations=sorted(destinations.reverse())
+destinations.reverse()
+destinations=sorted(destinations,reverse=True)
 print("Reverse Sorted: "+str(destinations))#unorderd reverse again
