@@ -1,4 +1,4 @@
-def primes(n):
+def primesFactors(n):
     factorials = []
     d = 2
     while d*d <= n:
@@ -11,4 +11,4 @@ def primes(n):
     print(factorials)
     return factorials
 
-primes(600851475143)
+primesFactors(600851475143)
