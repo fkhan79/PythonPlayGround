@@ -25,7 +25,6 @@ def not_bad(s):
     index_not=s.find("not")
     index_bad=s.find("bad")
     if(index_not<index_bad):
-        print(s[index_not:s.find("bad")+3])
         return s.replace(s[index_not:s.find("bad")+3],"good")
     else:
         return s
