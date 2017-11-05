@@ -72,7 +72,7 @@ def main():
 
     print()
     print("front_x")
-    test(fro1nt_x(["bbb", "ccc", "axx", "xzz", "xaa"]),["xaa", "xzz", "axx", "bbb", "ccc"])
+    test(front_x(["bbb", "ccc", "axx", "xzz", "xaa"]),["xaa", "xzz", "axx", "bbb", "ccc"])
     test(front_x(["ccc", "bbb", "aaa", "xcc", "xaa"]),["xaa", "xcc", "aaa", "bbb", "ccc"])
     test(front_x(["mix", "xyz", "apple", "xanadu", "aardvark"]),["xanadu", "xyz", "aardvark", "apple", "mix"])
 
